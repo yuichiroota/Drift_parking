@@ -25,7 +25,7 @@ echo ${ACCEL_SERVO_NO}=150 > ${SERVOBLASTER}
 echo ${STEERING_SERVO_NO}=105 > ${SERVOBLASTER}
 sleep 1
 
-echo '5 Drive forward & Steer to the left'
+echo '5 Drive forward & Steer to the right'
 echo ${ACCEL_SERVO_NO}=149 > ${SERVOBLASTER}
 echo ${STEERING_SERVO_NO}=115 > ${SERVOBLASTER}
 usleep 200000
