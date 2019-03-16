@@ -1,7 +1,7 @@
 **ドリフトからの縦列駐車のやり方**<br>
 
 ドリフト走行とは<br>
---- 
+***
 タイヤを横滑りさせながらカーブを曲がるテクニック<br>
 グリップ力を失った状態で滑る車体を制御するテクニック<br>
 キモは、横滑りとコントロール<br>
@@ -24,3 +24,6 @@
 遠心力を高めるために制動前のスピードが重要<br>
 
 ![image](https://user-images.githubusercontent.com/48497675/54396374-19303680-46f6-11e9-8f0b-296efeda7e2f.png)
+
+参考情報<br>
+[ドリフト動作1]:(https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1254940442)
