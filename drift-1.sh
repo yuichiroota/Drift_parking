@@ -28,19 +28,19 @@ sleep 1
 echo '5 Drive forward & Steer to the right'
 echo ${ACCEL_SERVO_NO}=149 > ${SERVOBLASTER}
 echo ${STEERING_SERVO_NO}=125 > ${SERVOBLASTER}
-usleep(200000)
+sleepenh 0.2 #usleeep don't use.need install sleepenh
 echo ${ACCEL_SERVO_NO}=148 > ${SERVOBLASTER}
 echo ${STEERING_SERVO_NO}=145 > ${SERVOBLASTER}
-usleep(200000)
+sleepenh 0.2
 echo ${ACCEL_SERVO_NO}=147 > ${SERVOBLASTER}
 echo ${STEERING_SERVO_NO}=150 > ${SERVOBLASTER}
-usleep(200000)
+sleepenh 0.2
 echo ${ACCEL_SERVO_NO}=148 > ${SERVOBLASTER}
 echo ${STEERING_SERVO_NO}=165 > ${SERVOBLASTER}
-usleep(200000)
+sleepenh 0.2
 echo ${ACCEL_SERVO_NO}=149 > ${SERVOBLASTER}
 echo ${STEERING_SERVO_NO}=175 > ${SERVOBLASTER}
-usleep(200000)
+sleepenh 0.2
 
 echo '6 Power off'
 echo ${ACCEL_SERVO_NO}=150 > ${SERVOBLASTER}
