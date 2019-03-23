@@ -21,7 +21,7 @@ echo ${ACCEL_SERVO_NO}=130 > ${SERVOBLASTER}
 sleep 1
 
 echo '4 Power off & Steer to the left'
-echo ${ACCEL_SERVO_NO}=150 > ${SERVOBLASTER}
+echo ${ACCEL_SERVO_NO}=151 > ${SERVOBLASTER}
 sleepenh 0.5 #sleeptime add
 echo ${STEERING_SERVO_NO}=195 > ${SERVOBLASTER}
 sleep 1
