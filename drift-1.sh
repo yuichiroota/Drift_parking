@@ -50,4 +50,4 @@ sleepenh 0.3
 
 echo '6 Power off'
 echo ${ACCEL_SERVO_NO}=150 > ${SERVOBLASTER}
-
+echo ${STEERING_SERVO_NO}=150 > ${SERVOBLASTER}
