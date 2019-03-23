@@ -18,10 +18,11 @@ echo '3 Steer straight & Drive forward'
 echo ${STEERING_SERVO_NO}=150 > ${SERVOBLASTER}
 sleep 1
 echo ${ACCEL_SERVO_NO}=130 > ${SERVOBLASTER}
-sleepenh 0.8                                     #1sec is too late
+sleep 1
 
 echo '4 Power off & Steer to the left'
 echo ${ACCEL_SERVO_NO}=150 > ${SERVOBLASTER}
+sleepenh 0.2 #sleeptime add
 echo ${STEERING_SERVO_NO}=195 > ${SERVOBLASTER}
 sleep 1
 
