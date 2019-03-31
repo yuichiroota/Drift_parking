@@ -11,7 +11,13 @@ echo ${ACCEL_SERVO_NO}=145 > ${SERVOBLASTER}
 sleep 1
 
 echo '2 Steer to the right'
-echo ${STEERING_SERVO_NO}=145 > ${SERVOBLASTER} 
+echo ${STEERING_SERVO_NO}=145 > ${SERVOBLASTER}  #135→145
+echo ${ACCEL_SERVO_NO}=145 > ${SERVOBLASTER}
+sleep 1
+
+echo '3 Steer to the left'
+echo ${STEERING_SERVO_NO}=150 > ${SERVOBLASTER}
+echo ${STEERING_SERVO_NO}=155 > ${SERVOBLASTER}
 echo ${ACCEL_SERVO_NO}=145 > ${SERVOBLASTER}
 sleep 1
 
@@ -27,6 +33,10 @@ echo ${ACCEL_SERVO_NO}=150 > ${SERVOBLASTER}
 echo ${STEERING_SERVO_NO}=195 > ${SERVOBLASTER}
 sleep 1
 
+echo ${ACCEL_SERVO_NO}=150 > ${SERVOBLASTER}
+echo ${STEERING_SERVO_NO}=150 > ${SERVOBLASTER}
+sleepenh 0.3
+
 echo '5 Drive forward & Steer to the right'
 echo ${ACCEL_SERVO_NO}=145 > ${SERVOBLASTER}
 echo ${STEERING_SERVO_NO}=175 > ${SERVOBLASTER}
@@ -37,9 +47,6 @@ echo ${STEERING_SERVO_NO}=155 > ${SERVOBLASTER}
 sleepenh 0.3
 
 echo ${ACCEL_SERVO_NO}=149 > ${SERVOBLASTER}
-echo ${STEERING_SERVO_NO}=150 > ${SERVOBLASTER}
-sleepenh 0.3
-
 echo ${ACCEL_SERVO_NO}=149 > ${SERVOBLASTER}
 echo ${STEERING_SERVO_NO}=145 > ${SERVOBLASTER}
 sleepenh 0.3
