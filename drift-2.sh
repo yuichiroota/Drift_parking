@@ -17,7 +17,7 @@ sleep 1
 
 echo '3 Steer to the left'
 echo ${STEERING_SERVO_NO}=150 > ${SERVOBLASTER}
-echo ${STEERING_SERVO_NO}=155 > ${SERVOBLASTER}
+echo ${STEERING_SERVO_NO}=160 > ${SERVOBLASTER}
 echo ${ACCEL_SERVO_NO}=145 > ${SERVOBLASTER}
 sleep 1
 
