@@ -5,7 +5,7 @@ STEERING_SERVO_NO=1
 ACCEL_SERVO_NO=2
 
 echo '1 Steer straight & Drive forward'
-echo ${STEERING_SERVO_NO}=150 > ${SERVOBLASTER}
+echo ${STEERING_SERVO_NO}=155 > ${SERVOBLASTER}
 sleep 1
 echo ${ACCEL_SERVO_NO}=145 > ${SERVOBLASTER}
 sleep 1
